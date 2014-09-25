@@ -11,7 +11,18 @@ Intro
 Who I am
 How I got roped into doing a talk over Accessibility
 Who I pinged to get my info
+    Dominic Canare
+        GreenLightGo - http://www.greenlightgo.org/projects/
+        https://twitter.com/obi_dom
+    
+    Sue Warcup
+        NetApp UX Designer - http://www.linkedin.com/pub/sue-warcup/2/4/a63
+
+    Sharaine Roberts
+        Caption First
+        
 Where to get my notes, slides etc for this talk - file github issues with questions or feedback etc.
+    https://github.com/hitjim/devict-accessibility
 
 Accessibility Stats
 -------------------
@@ -37,7 +48,7 @@ Good Reason:
 
 A-hole Reason:
     Government agencies require 508 compliance, so developing software with 508 in mind makes your product usable by a broader audience...  like, hypothetically ... gov't agencies ... which might have a lot of hypothetical tax dollars to spend.  So it would basically help you get your own money back ;)
-    Better search results, overlab with other best practices
+    Better search results, overlap with other best practices
 
 Tools for people with vision loss
 ---------------------------------
@@ -82,12 +93,12 @@ Color Blindness
 Link and skim Broderlanz 2 article
 http://www.gearboxsoftware.com/community/articles/1128/inside-the-box-adding-a-colorblind-mode-to-borderlands-2
 
-Demo Chrome Plugin on NewEgg site or better yet http://www.daltonize.org/ and http://www.merry-christmas.com/
+Demo Chrome Plugin on NewEgg site or better yet http://www.daltonize.org/ http://daltonize.appspot.com/ and http://www.merry-christmas.com/
 
 Color Contrast tool from WebAim
 
 WHAT CAN BE DONE!?
-------------------
+==================
 
 Vision
 ------
@@ -96,7 +107,7 @@ W/o aria or screen-reader specific classes etc
     Avoid improper (all?) use of Flash elements ;)
     Avoid improperly labelled forms
 
-Squiz Codesniffer - can be configured to check for 508 compliance ... ish :D
+Squiz Codesniffer - can be configured to check for 508 compliance ... ish :D https://packagist.org/packages/squizlabs/php_codesniffer
 Navigation
     Make sure you can traverse using tab, arrow keys, escape, enter, space etc
     If a dialog claims focus, it should return focus to launch point after completion
@@ -104,7 +115,48 @@ Navigation
 aria-label and aria-hidden
     do you want a person to know you have ASCII art of an Xzibit meme, or do you want the screen reader to try and read the ASCII?
 
+    http://www.w3.org/TR/wai-aria/states_and_properties#aria-label
+
+
 aria landmarks
     effectively navigate to various locations at the beginning of major content sections
 
+Hearing
+-------
+Captioning - personally, volunteer/crowdsource, professionally
+If user also has low vision, focus on braille-friendly work
 
+Color Blindness
+---------------
+Plan design or palette with this in mind
+Implement "Color Blind Mode"
+
+OVER-CAUTIOUS LINKAGE BARRAGE 
+=============================
+
+General 
+-------
+Americans with Disabilities Act
+    http://www.ada.gov/
+W3 Intro to Accessibility, WRT Web Design
+    http://www.w3.org/WAI/intro/accessibility.php
+    http://www.w3.org/standards/webdesign/accessibility
+
+Vision
+------
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+Good summary of a Webaim SReader survey
+    https://www.ssbbartgroup.com/blog/2012/06/12/webaim-screen-reader-survey/
+
+
+Hearing
+-------
+Launch-points/resources for meeting requirements of 21st Century Communications and Video Accessibility Act
+    http://transition.fcc.gov/cib/dro/cvaa.html
+    http://connect.ramp.com/updated-cvaa-checklist-google
+
+Captioning resources
+    Self - http://www.amara.com/
+    Professional - http://www.captionfirst.com/
+Color
+-----
